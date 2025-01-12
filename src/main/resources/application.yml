@@ -1,0 +1,38 @@
+library:
+  logging:
+    enabled: true
+    mask-patterns:
+      - pattern: "password=([^&]*)"
+        mask-character: "*"
+        visible-characters: 2
+      - pattern: "token=([^&]*)"
+        mask-character: "#"
+        visible-characters: 4
+      - pattern: "\"creditCard\":\\s*\"\\d{16}\""
+        mask-character: "X"
+        visible-characters: 4
+      - pattern: "\"ssn\":\\s*\"\\d{3}-\\d{2}-\\d{4}\""
+        mask-character: "*"
+        visible-characters: 0
+    excluded-paths:
+      - "/actuator/health"
+      - "/actuator/metrics"
+      - "/v3/api-docs/**"
+      - "/swagger-ui/**"
+    inclusion:
+      headers: true
+      query-params: true
+      body: true
+      performance: true
+    async:
+      enabled: true
+      timeout: 30s
+    environments:
+      dev:
+        level: DEBUG
+      test:
+        level: DEBUG
+      staging:
+        level: INFO
+      prod:
+        level: WARN
