@@ -27,12 +27,6 @@
       <artifactId>spring-boot-starter</artifactId>
     </dependency>
 
-    <!-- Spring AOP -->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-aop</artifactId>
-    </dependency>
-
     <!-- Spring Web for web-specific aspects -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
