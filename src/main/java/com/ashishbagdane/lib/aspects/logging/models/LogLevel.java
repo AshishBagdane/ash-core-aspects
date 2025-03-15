@@ -1,4 +1,4 @@
-package dev.ash.core.aspects.logging.models;
+package com.ashishbagdane.lib.aspects.logging.models;
 
 /**
  * Enum representing different logging levels for environments

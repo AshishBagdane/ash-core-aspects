@@ -1,4 +1,4 @@
-package dev.ash.core.aspects.logging.masking;
+package com.ashishbagdane.lib.aspects.logging.masking;
 
 import java.util.List;
 import java.util.Map;

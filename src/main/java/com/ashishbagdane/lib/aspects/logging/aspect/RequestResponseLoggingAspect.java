@@ -1,8 +1,8 @@
-package dev.ash.core.aspects.logging.aspect;
+package com.ashishbagdane.lib.aspects.logging.aspect;
 
-import dev.ash.core.aspects.logging.models.LoggingProperties;
-import dev.ash.core.aspects.logging.models.RequestContext;
-import dev.ash.core.aspects.logging.utils.LoggingUtils;
+import com.ashishbagdane.lib.aspects.logging.models.LoggingProperties;
+import com.ashishbagdane.lib.aspects.logging.models.RequestContext;
+import com.ashishbagdane.lib.aspects.logging.utils.LoggingUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.util.Collections;

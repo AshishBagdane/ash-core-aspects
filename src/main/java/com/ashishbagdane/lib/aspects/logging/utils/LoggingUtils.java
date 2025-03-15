@@ -1,10 +1,10 @@
-package dev.ash.core.aspects.logging.utils;
+package com.ashishbagdane.lib.aspects.logging.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.ash.core.aspects.logging.masking.MaskingPattern;
-import dev.ash.core.aspects.logging.models.LogLevel;
-import dev.ash.core.aspects.logging.models.LoggingProperties;
-import dev.ash.core.aspects.logging.models.RequestContext;
+import com.ashishbagdane.lib.aspects.logging.masking.MaskingPattern;
+import com.ashishbagdane.lib.aspects.logging.models.LogLevel;
+import com.ashishbagdane.lib.aspects.logging.models.LoggingProperties;
+import com.ashishbagdane.lib.aspects.logging.models.RequestContext;
 import jakarta.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
 import java.time.Duration;

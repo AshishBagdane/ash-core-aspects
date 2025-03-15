@@ -1,4 +1,4 @@
-package dev.ash.core.aspects.logging.models;
+package com.ashishbagdane.lib.aspects.logging.models;
 
 import java.util.HashMap;
 import java.util.Map;

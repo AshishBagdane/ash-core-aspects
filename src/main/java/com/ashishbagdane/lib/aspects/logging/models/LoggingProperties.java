@@ -1,6 +1,6 @@
-package dev.ash.core.aspects.logging.models;
+package com.ashishbagdane.lib.aspects.logging.models;
 
-import dev.ash.core.aspects.logging.masking.MaskingPattern;
+import com.ashishbagdane.lib.aspects.logging.masking.MaskingPattern;
 import jakarta.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package dev.ash.core.aspects.logging.masking;
+package com.ashishbagdane.lib.aspects.logging.masking;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;

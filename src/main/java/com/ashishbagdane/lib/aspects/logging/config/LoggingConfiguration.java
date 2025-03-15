@@ -1,9 +1,9 @@
-package dev.ash.core.aspects.logging.config;
+package com.ashishbagdane.lib.aspects.logging.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.ash.core.aspects.logging.aspect.RequestResponseLoggingAspect;
-import dev.ash.core.aspects.logging.models.LoggingProperties;
-import dev.ash.core.aspects.logging.utils.LoggingUtils;
+import com.ashishbagdane.lib.aspects.logging.aspect.RequestResponseLoggingAspect;
+import com.ashishbagdane.lib.aspects.logging.models.LoggingProperties;
+import com.ashishbagdane.lib.aspects.logging.utils.LoggingUtils;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
